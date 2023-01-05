@@ -1,0 +1,91 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.device {
+  padding: 20px;
+}
+
+.container {
+  padding: 100px;
+/*   display: flex; */
+  justify-content: flex-end;
+}
+
+.flex{
+	display: flex;
+}
+
+
+
+table, tbody, tr, td{
+ margin: 0px 0px 0px 0px;
+ padding: 0;
+ border: 2px;
+  border-color: red;
+ border-spacing: 0;
+ border-collapse: collapse;
+}
+
+.gui {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  padding: 50px;
+  background-color: #5adbb5
+}
+
+td.devices{
+	width: 150px;
+	height: 150px;
+}
+
+tr.devices{
+	height: 150px;
+}
+
+
+td.buybutton{
+	height: 50px;
+}
+
+div.device:hover{
+	background-color: rgba(24, 80, 240, 0.05);
+}
+
+.title{
+  text-align: center;
+}
+
+.image-cropper {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+div.absolute{
+  position: absolute;
+/*   top: 10px; */
+  right: 20px;
+/*   width: 200px;
+  height: 100px;	 */
+}
+
+/* img {
+  border: 5px solid #555;
+} */
+
+div.flex{
+	display: flex;
+	align-items: flex-start;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    object-fit: fill;
+    border: 0px;
+}

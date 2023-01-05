@@ -1,0 +1,105 @@
+.gui {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  padding: 50px;
+  background-color: #5adbb5
+}
+
+container {
+  padding: 100px;
+}
+
+
+.flex{
+	display: flex;
+  margin-top: 50px;
+}
+
+#pic7{
+	content:url("./Deactiveimg/Pic7.png");
+}
+
+#pic7.active{
+	content:url("./Activeimg/Pic7.png");
+}
+
+#pic9{
+	content:url("./Deactiveimg/Pic9.png");
+}
+
+#pic9.active{
+	content:url("./Activeimg/Pic9.png");
+}
+
+#pic10{
+	content:url("./Deactiveimg/Pic10.png");
+}
+
+#pic10.active{
+	content:url("./Activeimg/Pic10.png");
+}
+
+#pic11{
+	content:url("./Deactiveimg/Pic11.png");
+}
+
+#pic11.active{
+	content:url("./Activeimg/Pic11.png");
+}
+
+#pic12{
+	content:url("./Deactiveimg/Pic12.png");
+}
+
+#pic12.active{
+	content:url("./Activeimg/Pic12.png");
+}
+
+/* #hero-video{
+	height: 246px;
+	position: absolute;
+	object-fit: fill;
+} */
+
+
+h1{
+	font-family: Georgia;
+	font-size: 30px;
+}
+
+div#space{
+	padding: 100px;
+}
+
+table#aboutus{
+
+	margin-left: auto;
+  margin-right: auto;
+	margin: 20px;
+}
+
+.grid{
+	margin-left: auto;
+	margin-right: auto;
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;	
+	column-gap: 100px;
+}
+
+section#aboutus{
+  padding: 20px 0px;
+}
+
+.center{
+	text-align:center;
+}
+
+.underline{
+	border-bottom: 10px solid #89c6ec;
+}
+
+img.center{
+	margin-left: auto;
+  margin-right: auto;
+}

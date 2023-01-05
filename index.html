@@ -1,0 +1,182 @@
+<html>
+
+	<title>
+		Energy Capitalist
+	</title>
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css" />
+  <link rel="stylesheet" href="test.css" />
+
+</head>
+
+<body>
+  <!-- HERO (banner)-->
+  <section class="hero has-background-primary-dark has-text-centered" id="hero">
+<!-- 		<video id="hero-video" src="Light Bulb Going On and Off.mp4" autoplay muted loop> </video> -->
+    <div class="hero-body">
+      <p class="title is-size-1 has-text-primary-light">Energy Capitalist</p>
+      <p class="subtitle is-size-3 has-text-light">"That's one small step for man, one giant leap for mankind."</p>
+    </div>
+
+		<!--NAVBAR -->
+		<div class= "navbar" >
+			<div class="navbar-menu is-active">
+<!-- 				<div class="navbar-start">
+					<a href="" class="navbar-item"> Tutorial </a>
+				</div> -->
+				<div class="navbar-end">
+					<a href="/ourteam.html" class="navbar-item has-text-light"> Our Team </a>
+					<a href="/moreinfo.html" class="navbar-item has-text-light"> More Info </a>
+				</div>
+			</div>
+		</div>
+		
+  </section>
+
+	
+
+  <div class="container">
+    <div class="flex">
+      <img
+        src="https://toppng.com/public/uploads/thumbnail/lightening-fast-lightning-bolt-icon-circle-11562900929gfef5zkwbp.png"
+        alt="energy saved" width="25px" height="25px" />
+      <p class='energyAmount'>&nbsp;0W</p>
+      <p id='passiveEnergyCounter'>&nbsp;&nbsp;0W per hour (5s real time)</p>
+    </div>
+    <div class="columns">
+      <div class="column">
+        <table cellpadding='0' cellspacing='0'>
+          <tbody>
+            <tr>
+              <td class="devices picture"><img class='olddevice active' src="./Activeimg/Pic1.png" id="pic1" /></td>
+              <td class="devices picture"><img class='olddevice active' src="./Activeimg/Pic2.png" id="pic2"/></td>
+              <td class="devices picture"><img class='olddevice active' src="./Activeimg/Pic3.png" id="pic3"/></td>
+              <td class="devices picture"><img class='olddevice active' src="./Activeimg/Pic4.png" id="pic4"/></td>
+            </tr>
+
+            <tr>
+              <td class="devices picture" id=""><img class='olddevice active' src="./Activeimg/Pic5.png" id="pic5"/></td>
+              <td class="devices picture"><img class='olddevice active' src="./Activeimg/Pic6.png" id="pic6"/></td>
+              <td class="devices picture" id="remote"><img class='olddevice active' src="./Activeimg/Pic7.png" id="pic7"/></td>
+              <td class="devices picture"><img class='olddevice active' src="./Activeimg/Pic8.png" id="pic8"/></td>
+            </tr>
+
+            <tr>
+              <td class="devices picture"><img class='olddevice active' src="./Activeimg/Pic9.png" id="pic9"/></td>
+              <td class="devices picture"><img class='olddevice active' src="./Activeimg/Pic10.png" id="pic10"/></td>
+              <td class="devices picture" id="switch"><img class='olddevice active' src="./Activeimg/Pic11.png" id="pic11"/></td>
+              <td class="devices picture" id="door"><img class='olddevice active' src="./Activeimg/Pic12.png" id="pic12"/></td>
+            </tr>
+
+            <tr>
+              <td class="devices picture"><img class='olddevice active' src="./Activeimg/Pic13.png" id="pic13"/></td>
+              <td class="devices picture"><img class='olddevice active' src="./Activeimg/Pic14.png" id="pic14"/></td>
+              <td class="devices picture"><img class='olddevice active' src="./Activeimg/Pic15.png" id="pic15"/></td>
+              <td class="devices picture"><img class='olddevice active' src="./Activeimg/Pic16.png" id="pic16"/></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="column">
+        <!-- UPGRADE TAB -->
+        <section id="" class="gui">
+          <!--Section that contains the different devices-->
+          <div id="" class="title is-2">
+            <h1>Store</h1>
+          </div>
+
+          <!--Product section-->
+          <table style="width: 100%;">
+            <tbody>
+              <tr>
+                <th>Smart Switch (10W)</th>
+                <td><progress id="smartSwitch" class="progress" value="0" max="10">
+                    <div class="absolute">
+                      <h3>10W</h3>
+                    </div>
+                  </progress></td>
+              </tr>
+              <tr>
+                <td><img
+                    src="https://images.prismic.io/kasasmart/435fa8715e29868bdc2cefc316b59a0ef12c9188_hs220-product-image.png"
+                    class="image-cropper" alt="switch" /></td>
+                <td style="width: 70%;"><button id='smartSwitch' class="button is-small is-success is-inverted"
+                    disabled>BUY</button> </td>
+              </tr>
+
+              <tr>
+                <th>Smart Bulb (50W)</th>
+                <td><progress id="smartBulb" class="progress" value="0" max="50"></progress></td>
+              </tr>
+              <tr>
+                <td><img src="https://fs.npstatic.com/userfiles/7715851/image/Philips-Hue-Starter-Kit-RGB-w160h160.png"
+                    class="image-cropper" alt="bulb" /></td>
+                <td><button id='smartBulb' class="button is-small is-success is-inverted" disabled>BUY</button></td>
+              </tr>
+
+              <tr>
+                <th>Smart Plug (250W)</th>
+                <td><progress id="smartPlug" class="progress" value="0" max="250"></progress></td>
+              </tr>
+              <tr>
+                <td><img src="https://alexnld.com/wp-content/uploads/2021/12/0c4898dc-4c88-4642-92ea-7c3b967952bf.png"
+                    class="image-cropper" alt="plug" /></td>
+                <td><button id="smartPlug" class="button is-small is-success is-inverted " disabled>BUY</button></td>
+              </tr>
+
+              <tr>
+                <th>Universal Remote (1250W)</th>
+                <td><progress id="universalRemoate" class="progress" value="0" max="1250"></progress></td>
+              </tr>
+              <tr>
+                <td><img
+                    src="https://www.tcl.com/usca/content/dam/tcl/product/home-theater/4-series/carousel/6_65S423.png"
+                    class="image-cropper" alt="remote" /></td>
+                <td><button id="universalRemote" class="button is-small is-success is-inverted" disabled>BUY</button>
+                </td>
+              </tr>
+
+              <tr>
+                <th>Door Lock (6250W)</th>
+                <td><progress id="doorLock" class="progress" value="0" max="6250"></progress></td>
+              </tr>
+              <tr>
+                <td><img
+                    src="https://cdn.shopify.com/s/files/1/0270/0106/1420/products/brzsquareslightside_2048x.png?v=160098309"
+                    class="image-cropper" alt="lock" /></td>
+                <td><button id="doorLock" class="button is-small is-success is-inverted" disabled>BUY</button></td>
+              </tr>
+
+              <tr>
+                <th>Nest Thermostat (31250W)</th>
+                <td><progress id="nestThermostat" class="progress" value="0" max="31250"></progress></td>
+              </tr>
+              <tr>
+                <td><img
+                    src="https://cdn11.bigcommerce.com/s-hm90xvqs2z/images/stencil/1280x1280/products/167/672/Nest_Learning_Thermostat_cooling78_Fnt_PolishedSteeli_1000px__02844.1651262032.png"
+                    class="image-cropper" alt="thermostat" /></td>
+                <td><button id="nestThermostat" class="button is-small is-success is-inverted " disabled>BUY</button>
+                </td>
+              </tr>
+
+
+            </tbody>
+          </table>
+          <!--
+      <div id="products" class="">
+        <div id="smart-switch" class="device">Smart Switch</div>
+        <div id="smart-bulb" class="device">Smart Bulb</div>
+        <div id="smart-plug" class="device">Smart Plug</div>
+        <div id="universal-remote" class="device">Universal Remote</div>
+        <div id="door-lock" class="device">Door Lock</div>
+				<div id="nest-thermostat" class="device">Nest Thermostat</div>
+      </div>
+      -->
+        </section>
+      </div>
+    </div>
+  </div>
+	<script src="script.js" type="text/javascript" defer></script>
+</body>
+
+</html>
